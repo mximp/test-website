@@ -1,1 +1,1 @@
-My personal blog sources powered by [GitHub Pages](https://pages.github.com/)
+My personal [Blog](https://mximp.github.io/mximp/) powered by [GitHub Pages](https://pages.github.com/)
