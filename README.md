@@ -1,5 +1,6 @@
-
-title: MXIMP's Blog
+---
+title: "MXIMP's Blog"
+---
 
 ## Welcome to my Blog
 
