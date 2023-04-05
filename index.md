@@ -11,3 +11,14 @@ My telegram channel about IT technologies: [https://t.me/itgalka_channel](https:
 My Blog (this site): [https://mximp.github.io/mximp/](https://mximp.github.io/mximp/)
 
 I'm on GitHub: [https://github.com/mximp](https://github.com/mximp)
+
+## Blog
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      {{ post.excerpt }}
+    </li>
+  {% endfor %}
+</ul>
