@@ -15,7 +15,7 @@ I'm on GitHub: [https://github.com/mximp](https://github.com/mximp)
 ## Posts
 
 {% for post in site.posts %}
-  {{ post.date | date: "%Y, %b %d" }}: <a href="{{ post.url }}">{{ post.url }}</a>
+  {{ post.date | date: "%Y, %b %d" }}: <a href="{{ post.title }}">{{ post.url }}</a>
   {{ post.excerpt }}
   <br/>
 {% endfor %}
