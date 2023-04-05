@@ -14,11 +14,8 @@ I'm on GitHub: [https://github.com/mximp](https://github.com/mximp)
 
 ## Blog
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.url }}</a></h2>
-      {{ post.excerpt }}
-    </li>
-  {% endfor %}
-</ul>
+{% for post in site.posts %}
+  {{ post.date }} <h3><a href="{{ post.url }}">{{ post.url }}</a></h2>
+  {{ post.excerpt }}
+  <br/>
+{% endfor %}
