@@ -12,7 +12,7 @@ My Blog (this site): [https://mximp.github.io/mximp/](https://mximp.github.io/mx
 
 I'm on GitHub: [https://github.com/mximp](https://github.com/mximp)
 
-## Blog
+## Posts
 
 {% for post in site.posts %}
   {{ post.date }} <h3><a href="{{ post.url }}">{{ post.url }}</a></h2>
